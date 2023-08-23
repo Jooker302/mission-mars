@@ -13,20 +13,20 @@ export default function Home() {
         <div className="flex justify-between">
           <a
             className="m-2"
-            href="https://twitter.com/Bardoge313?t=5Z9gymFBFHN_UjcFMVdZGQ&s=09"
+            href="https://twitter.com/MissionMars32?t=uE0BZIKc1QO3oKPKdGfXRw&s=09"
           >
             <FontAwesomeIcon
               icon={faXTwitter}
               size="lg"
-              className="text-white hover:text-[#BFE963]"
+              className="text-white hover:text-cyan-400"
               style={{  width: "24px", height: "24px" }}
             />
           </a>
-          <a className="m-2" href="https://t.me/bardoge">
+          <a className="m-2" href="https://t.me/mmasrs">
             <FontAwesomeIcon
               icon={faTelegram}
               size="lg"
-              className="text-white hover:text-[#BFE963]"
+              className="text-white hover:text-cyan-400"
               style={{ width: "24px", height: "24px" }}
             />
           </a>
@@ -48,14 +48,14 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div id="intro" className="flex justify-between p-4 flex-wrap">
+      <div id="intro" className="flex justify-between bg-gray-100 p-4 flex-wrap">
         <div className="md:w-1/2">
           <img className="md:w-96 md:h-96 md:ml-28 rounded-xl" src="/main.jpeg" />
         </div>
         <div className="md:w-1/2 px-4 py-2">
-          <h2 className="text-black text-5xl font-bold mt-4 md:mt-0">Mission Mars</h2>
-          <p className="p-4 pt-8 text-xl">
-          Welcome to the world of "Mission Mars," a cutting-edge crypto token that merges the realms of cryptocurrency and space exploration. By bridging technology and the cosmos, Mission Mars strives to redefine possibilities and inspire a new era of innovation. Join us on this extraordinary venture to reach for the stars in both the digital and physical domains.
+          <h2 className=" text-5xl font-bold mt-4 md:mt-0 text-[#073169]">Mission Mars</h2>
+          <p className="p-4 md:pt-8 text-xl">
+          Welcome to the world of <span className="font-bold">"Mission Mars,"</span> a cutting-edge crypto token that merges the realms of cryptocurrency and space exploration. By bridging technology and the cosmos, Mission Mars strives to redefine possibilities and inspire a new era of innovation. Join us on this extraordinary venture to reach for the stars in both the digital and physical domains.
           </p>
           <div className="flex justify-center my-3">
             {/* <a href="#about" className="px-4 py-2 cursor-pointer bg-[#073169] text-white hover:bg-[#D1668A] rounded-lg">
